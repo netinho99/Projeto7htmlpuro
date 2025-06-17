@@ -1,4 +1,7 @@
 # Projeto7htmlpuro
+
+📌 Link para o site: https://projeto7htmlpuro.vercel.app/
+
 # 🌐 Site Educacional Completo em HTML
 
 Este projeto é um site desenvolvido com **HTML5 + CSS3 puro**, criado com o objetivo de demonstrar **praticamente todas as tags HTML disponíveis**, de forma estruturada, funcional e educativa.
