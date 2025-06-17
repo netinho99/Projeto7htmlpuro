@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Site com todas as tags HTML" />
+    <meta name="author" content="Elongio Moreira" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Explorando o HTML Completo</title>
+  </head>
+ 
+  <body>
+    <header>
+      <h1>Bem-vindo ao site mais HTML do mundo!</h1>
+      <nav>
+        <ul>
+          <li><a href="#texto">Textos</a></li>
+          <li><a href="#listas">Listas</a></li>
+          <li><a href="#tabela">Tabelas</a></li>
+          <li><a href="#form">Formulários</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <section id="texto">
+        <h2>Tags de Texto</h2>
+        <p>Isso é um parágrafo com <strong>ênfase</strong> e <em>itálico</em>.</p>
+        <p><abbr title="HyperText Markup Language">HTML</abbr> é incrível.</p>
+        <blockquote cite="https://pt.wikipedia.org/wiki/HTML">HTML é uma linguagem de marcação usada para criar páginas web.</blockquote>
+        <mark>Texto marcado</mark> e <code>código inline</code>.
+      </section>
+      
+      <section id="listas">
+        <h2>Listas</h2>
+        <ul>
+          <li>Item A</li>
+          <li>Item B</li>
+        </ul>
+        <ol>
+          <li>Item 1</li>
+          <li>Item 2</li>
+        </ol>
+        <dl>
+          <dt>HTML</dt>
+          <dd>Linguagem de marcação para web</dd>
+        </dl>
+      </section>
+
+      <section id="tabela">
+        <h2>Tabela de usuários</h2>
+        <table border="1">
+          <caption>Dados</caption>
+          <thead>
+            <tr><th>Nome</th><th>Idade</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Elongio</td><td>25</td></tr>
+          </tbody>
+          <tfoot>
+            <tr><td colspan="2">Rodapé da tabela</td></tr>
+          </tfoot>
+        </table>
+      </section>
+
+      <section id="form">
+        <h2>Formulário de Cadastro</h2>
+        <form action="#" method="POST">
+          <fieldset>
+            <legend>Dados pessoais</legend>
+            <label>Nome: <input type="text" name="nome"></label><br>
+            <label>Email: <input type="email" name="email"></label><br>
+            <label>Senha: <input type="password" name="senha"></label><br>
+            <label>Idade: <input type="number" name="idade"></label><br>
+            <label>Data Nasc: <input type="date" name="nasc"></label><br>
+            <label>Sexo: 
+              <input type="radio" name="sexo" value="M">Masculino
+              <input type="radio" name="sexo" value="F">Feminino
+            </label><br>
+            <label>Interesses:
+              <input type="checkbox" name="html">HTML
+              <input type="checkbox" name="css">CSS
+            </label><br>
+          </fieldset>
+          <input type="submit" value="Enviar">
+        </form>
+      </section>
+
+      <section id="midia">
+        <h2>Mídia</h2>
+        <img src="imagens/exemplo.jpg" alt="Exemplo">
+        <audio controls src="audio/exemplo.mp3"></audio>
+        <video controls width="320" height="240">
+          <source src="video/exemplo.mp4" type="video/mp4">
+        </video>
+        <svg width="100" height="100">
+          <circle cx="50" cy="50" r="40" fill="green"/>
+        </svg>
+      </section>
+
+      <section id="extras">
+        <h2>Outros elementos</h2>
+        <details>
+          <summary>Veja mais</summary>
+          Aqui tem um conteúdo escondido.
+        </details>
+        <progress value="70" max="100"></progress>
+        <meter value="6" min="0" max="10">6/10</meter>
+        <iframe src="https://example.com" width="300" height="200"></iframe>
+      </section>
+
+      <footer>
+        <p>Rodapé do site - &copy; 2025 netinhonovenove</p>
+        <div class="social-icons">
+            <a href="https://facebook.com" target="_blank" title="Facebook">🌐</a>
+            <a href="https://twitter.com" target="_blank" title="Twitter">🐦</a>
+            <a href="https://instagram.com" target="_blank" title="Instagram">📸</a>
+            <a href="mailto:exemplo@email.com" title="E-mail">✉️</a>
+          </div>
+      </footer>
+
+  </body>
+</html>
+            

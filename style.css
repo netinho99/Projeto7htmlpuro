@@ -1,0 +1,135 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, rgb(255, 255, 255), #0059ff); /* gradiente preto → azul */
+    color: rgb(249, 249, 250);
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+  }
+  
+  header {
+    background: linear-gradient(to left, black, #0059ff); /* gradiente preto → azul */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5); /* sombra sutil embaixo */
+    border-bottom: 3px solid #003399; /* linha azul escura embaixo */
+  }
+  
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  nav ul li a {
+        color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  section {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 15px;
+    background: linear-gradient(to left, black, #0059ff); /* gradiente preto → azul */
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+  }
+  
+  h1, h2 {
+    font-weight: normal;
+    margin-bottom: 15px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  table, th, td {
+    border: 1px solid rgb(255, 255, 255);
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: center;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="password"],
+  form input[type="number"],
+  form input[type="date"] {
+    padding: 5px;
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+  }
+  
+  form input[type="submit"] {
+    background-color: #007acc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #005f99;
+  }
+  
+  details {
+    margin-top: 15px;
+  }
+  
+  progress, meter {
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    max-width: 300px;
+  }
+  footer {
+    background: linear-gradient(to right, #000000, #003399);
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 14px;
+    border-top: 2px solid #0059ff;
+  }
+  
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: transform 0.3s ease, color 0.3s ease;
+    color: white;
+  }
+  
+  .social-icons a:hover {
+    color: #00bfff;
+    transform: scale(1.3);
+  }
